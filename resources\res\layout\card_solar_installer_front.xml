@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/card_solar_installer_front_0" android:background="@drawable/holding_bg_solar" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/solar_header" android:background="@drawable/holding_header_solar" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/solar_licence_title" android:fontFamily="@font/vic_bold" android:layout_marginStart="16dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:src="@drawable/ic_logo_solar" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/solar_content" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="16dp" android:baselineAligned="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/solar_header">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/left_details" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/black" android:ellipsize="end" android:id="@+id/holder_name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:maxLines="2" android:fontFamily="@font/vic_semi_bold"/>
+            <TextView android:textSize="12sp" android:textColor="@color/black" android:id="@+id/licence_number_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/solar_identifier_title" android:fontFamily="@font/vic_regular"/>
+            <TextView android:textSize="14sp" android:textColor="@color/black" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="1" android:fontFamily="@font/vic_semi_bold" app:layout_constraintStart_toStartOf="0"/>
+            <android.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14sp" android:textColor="@color/black" android:id="@+id/expires" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/solar_expires" android:fontFamily="@font/vic_regular" android:layout_marginEnd="4dp"/>
+                <TextView android:textSize="14sp" android:textColor="@color/black" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/vic_semi_bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/right_details" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="12sp" android:textColor="@color/black" android:id="@+id/accreditation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/solar_installer_accreditations" android:fontFamily="@font/vic_regular"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:tag="binding_4" android:text="@string/solar_accreditation_grid_connected" style="@style/SolarAccreditation"/>
+                <TextView android:tag="binding_5" android:text="@string/solar_accreditation_stand_alone" style="@style/SolarAccreditation"/>
+                <TextView android:tag="binding_6" android:text="@string/solar_accreditation_hot_water" style="@style/SolarAccreditation"/>
+                <TextView android:tag="binding_7" android:text="@string/solar_accreditation_batteries" style="@style/SolarAccreditation"/>
+            </LinearLayout>
+            <android.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14sp" android:textColor="@color/black" android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:text="@string/holding_label_status" android:fontFamily="@font/vic_regular" android:layout_marginEnd="4dp"/>
+                <TextView android:textSize="14sp" android:textColor="@color/black" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:fontFamily="@font/vic_semi_bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

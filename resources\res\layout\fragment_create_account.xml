@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_create_account_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/title_bar_RES_2114322636" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0">
+        <include layout="@layout/layout_title_bar_RES_2114388042"/>
+        <ImageView android:id="@+id/back_button_RES_2114322446" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_nav_back" android:contentDescription="@string/back_RES_2114650141" android:paddingStart="10dp" android:paddingEnd="16dp" android:paddingVertical="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:tint="@color/dw_orange_RES_2114060292"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/title_bar_RES_2114322636">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="32dp" android:paddingRight="24dp" android:paddingBottom="200dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="24dp">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="86dp" android:layout_height="52dp" android:src="@drawable/ic_service_small" android:scaleType="fitCenter" android:contentDescription="@string/login_service_victoria_logo"/>
+            <com.google.android.material.textfield.TextInputLayout android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:hint="@string/given_names" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="@string/family_name" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="@string/email" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/email_edit_text" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="@string/password" app:endIconMode="1" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:tag="binding_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="13sp" android:textColor="@color/dw_battleship_grey_RES_2114060291" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_account_password_must" android:fontFamily="@font/vic_medium"/>
+                <TextView android:textSize="13sp" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_account_password_length" android:fontFamily="@font/vic_medium" android:layout_marginStart="5dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp">
+                <TextView android:textSize="13sp" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_account_password_upper_letter" android:fontFamily="@font/vic_medium" android:layout_marginStart="5dp"/>
+                <TextView android:textSize="13sp" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_account_password_lower_letter" android:fontFamily="@font/vic_medium" android:layout_marginStart="5dp"/>
+            </LinearLayout>
+            <Button android:textAppearance="@style/DwLoginButtonText" android:tag="binding_12" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="26dp" android:text="@string/create_account"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@+id/login_button" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="22dp" android:layout_marginBottom="22dp" android:layout_marginVertical="22dp">
+                <TextView android:textSize="16sp" android:textColor="@color/dw_slate_RES_2114060294" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_account_already_have_account" android:fontFamily="@font/vic_medium"/>
+                <TextView android:textSize="16sp" android:textColor="@color/colorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_citizen_login" android:fontFamily="@font/vic_medium" android:layout_marginStart="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/layout_loading_RES_2114388041"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

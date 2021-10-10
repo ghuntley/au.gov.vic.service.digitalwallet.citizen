@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/card_fishing_licence_front_0" android:background="0x7e040014" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="180dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintBottom_toTopOf="@+id/bottom_content" app:layout_constraintStart_toStartOf="0">
+        <TextView android:tag="binding_1" style="@style/FishingDetailTitleLine"/>
+        <TextView android:tag="binding_2" style="@style/FishingDetailTitleLine"/>
+        <TextView android:tag="binding_3" style="@style/FishingDetailTitleLine"/>
+        <TextView android:tag="binding_4" style="@style/FishingDetailTitleLine"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_content" android:layout_width="match_parent" android:layout_height="64dp" android:baselineAligned="false" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <GridLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:rowCount="2" android:columnCount="2" android:layout_marginEnd="4dp">
+            <TextView android:text="@string/holding_label_dob" style="@style/FishingDetailFieldName"/>
+            <TextView android:tag="binding_5" style="@style/FishingDetailFieldValue"/>
+            <TextView android:text="@string/holding_label_licence_no" style="@style/FishingDetailFieldName"/>
+            <TextView android:tag="binding_6" style="@style/FishingDetailFieldValue"/>
+        </GridLayout>
+        <GridLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:rowCount="3" android:columnCount="2" android:layout_marginStart="4dp">
+            <TextView android:text="@string/fishing_licence_duration" style="@style/FishingDetailFieldName"/>
+            <TextView android:tag="binding_7" style="@style/FishingDetailFieldValue"/>
+            <TextView android:text="@string/holding_label_valid_from" style="@style/FishingDetailFieldName"/>
+            <TextView android:tag="binding_8" style="@style/FishingDetailFieldValue"/>
+            <TextView android:text="@string/solar_expires" style="@style/FishingDetailFieldName"/>
+            <TextView android:tag="binding_9" style="@style/FishingDetailFieldValue"/>
+        </GridLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

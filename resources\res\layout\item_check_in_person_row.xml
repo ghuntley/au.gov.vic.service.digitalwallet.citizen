@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:tag="layout/item_check_in_person_row_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="1.25" android:scaleY="1.25" android:layout_marginStart="24dp" android:buttonTint="@color/dw_orange_RES_2131034234"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginHorizontal="24dp">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginVertical="16dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="16sp" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/vic_semi_bold"/>
+                <TextView android:textSize="14sp" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:fontFamily="@font/vic_semi_bold"/>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textColor="@color/dw_orange_RES_2131034234" android:gravity="center_vertical" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/edit" android:textAllCaps="true" android:fontFamily="@font/vic_semi_bold" android:paddingStart="4dp" android:paddingEnd="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/light" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </LinearLayout>
+</LinearLayout>

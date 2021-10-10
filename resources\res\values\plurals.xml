@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="harvest_tag_summary_count">
+        <item quantity="one">%1$d tag scanned</item>
+        <item quantity="other">%1$d tags scanned</item>
+    </plurals>
+    <plurals name="harvest_tag_total_message">
+        <item quantity="one">1 tag scanned in total.</item>
+        <item quantity="other">%1$d tags scanned in total.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+</resources>

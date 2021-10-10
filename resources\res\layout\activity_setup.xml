@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fragment_container_RES_2114322527" android:tag="layout/activity_setup_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/card_worksafe_licence_back_0" android:background="0x7e04000f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:padding="33dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:text="@string/worksafe_licence_conditions" style="@style/WorksafeLicenceDataValue"/>
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <TextView android:tag="binding_1" style="@style/WorksafeLicenceDataLabel"/>
+    </LinearLayout>
+</LinearLayout>

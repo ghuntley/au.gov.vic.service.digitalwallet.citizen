@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/harvester_zone_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridLayout android:orientation="vertical" android:padding="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:useDefaultMargins="true">
+        <ImageView android:tag="binding_1" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/cd_back" android:paddingStart="0dp" android:paddingEnd="30dp" app:srcCompat="@drawable/ic_icon_nav_back_dark"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/harvest_zone_title" style="@style/ExpandedAppBar"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/harvest_zone_body" style="@style/SVBody"/>
+    </GridLayout>
+    <View style="@style/HorizontalLine"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_rowWeight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/zone_table" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_rowWeight="1"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_2" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="10dp" android:tint="@color/dw_battleship_grey_RES_2114060291" android:contentDescription="@string/cd_notice_icon" app:srcCompat="@drawable/ic_icon_info_red"/>
+            <TextView android:textColor="@color/dw_battleship_grey_RES_2114060291" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/harvest_no_zones_title" android:textAlignment="center" style="@style/SVBody"/>
+        </LinearLayout>
+    </FrameLayout>
+    <View style="@style/HorizontalLine"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="bottom" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="@string/save_RES_2114650459" style="@style/OrangeButton"/>
+    </FrameLayout>
+</GridLayout>

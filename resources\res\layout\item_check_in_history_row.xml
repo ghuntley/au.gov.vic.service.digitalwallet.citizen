@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/item_check_in_history_row_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:tag="binding_1" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="20dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp">
+        <ImageView android:tag="binding_2" android:layout_width="@dimen/check_in_shortcut_row_item_icon_size" android:layout_height="@dimen/check_in_shortcut_row_item_icon_size"/>
+        <LinearLayout android:gravity="center" android:tag="binding_3" android:layout_width="@dimen/check_in_shortcut_row_item_icon_size" android:layout_height="@dimen/check_in_shortcut_row_item_icon_size">
+            <CheckBox android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="1.25" android:scaleY="1.25" android:buttonTint="@color/dw_orange_RES_2131034234"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp">
+            <TextView android:textSize="16sp" android:textColor="@color/dw_slate_RES_2131034238" android:ellipsize="end" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/vic_semi_bold"/>
+            <TextView android:textSize="14sp" android:textColor="@color/dw_battleship_grey_RES_2131034233" android:ellipsize="end" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:maxLines="1" android:fontFamily="@font/vic_regular"/>
+        </LinearLayout>
+        <ImageView android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_check_in_arrow" android:contentDescription="@string/next_RES_2131689714" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <View android:tag="binding_8" android:background="@color/light" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="20dp"/>
+</LinearLayout>

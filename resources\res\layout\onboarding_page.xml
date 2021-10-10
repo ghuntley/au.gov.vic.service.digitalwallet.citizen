@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/onboarding_page_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="80dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="24dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/image_RES_2114322545" android:layout_width="wrap_content" android:layout_height="240dp" android:scaleType="centerInside" app:srcCompat="0x7e040064"/>
+        <TextView android:textSize="24sp" android:textColor="@color/dw_slate_RES_2114060294" android:gravity="center" android:id="@+id/copy1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:text="@string/onboarding_1_heading" android:fontFamily="@font/vic_bold"/>
+        <TextView android:textSize="16sp" android:textColor="#3c4a60" android:gravity="center" android:id="@+id/copy2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/onboarding_1_body" android:fontFamily="@font/vic_regular"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

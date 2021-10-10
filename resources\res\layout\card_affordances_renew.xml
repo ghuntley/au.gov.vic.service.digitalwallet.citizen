@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/card_affordances_renew_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28dp" app:cardCornerRadius="6dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="13sp" android:textColor="@color/white" android:gravity="center_vertical" android:tag="binding_2" android:background="#e6cc3333" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4dp" android:fontFamily="@font/vic_bold" app:drawableStartCompat="@drawable/ic_warning"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

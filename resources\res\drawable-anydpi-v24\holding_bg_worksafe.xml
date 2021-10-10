@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="215dp" android:width="346dp" android:viewportWidth="346" android:viewportHeight="215">
+    <path android:fillColor="@drawable/$holding_bg_worksafe__0" android:pathData="M10,0L336,0A10,10 0,0 1,346 10L346,205A10,10 0,0 1,336 215L10,215A10,10 0,0 1,0 205L0,10A10,10 0,0 1,10 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="#fdb813" android:pathData="M0.049,9C0.551,3.947 4.815,0 10,0L336,0C341.185,-0 345.449,3.947 345.951,9L346,9L346,60L0,60L0,9L0.049,9Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

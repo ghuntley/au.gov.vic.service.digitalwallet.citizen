@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/item_transaction_history_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginStart="24dp">
+    <TextView android:textSize="13sp" android:textColor="@color/dark_RES_2114060289" android:id="@+id/date" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:fontFamily="@font/vic_semi_bold" android:layout_marginEnd="24dp"/>
+    <TextView android:textSize="16sp" android:textColor="@color/darker" android:id="@+id/name" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:fontFamily="@font/vic_semi_bold" android:layout_marginEnd="24dp"/>
+    <TextView android:textSize="16sp" android:textColor="@color/dark_RES_2114060289" android:id="@+id/status" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:fontFamily="@font/vic_semi_bold" android:layout_marginEnd="24dp"/>
+    <TextView android:textSize="13sp" android:textColor="@color/dark_RES_2114060289" android:id="@+id/refNum" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="18dp" android:fontFamily="@font/vic_semi_bold" android:layout_marginEnd="24dp"/>
+    <View android:background="@color/light" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="24dp"/>
+</LinearLayout>

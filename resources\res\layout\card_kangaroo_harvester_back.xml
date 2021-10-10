@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/card_kangaroo_harvester_back_0" android:background="@drawable/card_kangaroo_harvester_back_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView3" android:layout_width="90dp" android:layout_height="55dp" android:layout_margin="20dp" android:contentDescription="@string/cd_vic_gov" app:srcCompat="0x7e040045"/>
+</FrameLayout>

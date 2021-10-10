@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/frameLayout" android:tag="layout/card_affordances_kangaroo_harvester_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="2dp">
+        <TextView android:textSize="13sp" android:textColor="@color/white" android:background="@color/dw_orange_RES_2114060292" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground" android:text="@string/kangaroo_harvester_my_jobs" android:fontFamily="@font/vic_bold" android:paddingHorizontal="10dp" android:paddingVertical="6dp"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

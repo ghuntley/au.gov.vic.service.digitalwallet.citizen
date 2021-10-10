@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="disclaimer_button_seperation">25dp</dimen>
+    <dimen name="disclaimer_margin_end">64dp</dimen>
+    <dimen name="disclaimer_separation">12dp</dimen>
+</resources>

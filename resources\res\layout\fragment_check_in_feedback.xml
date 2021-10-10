@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_check_in_feedback_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/skip_btn" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check_in_feedback_title" style="@style/CheckInTitle"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/check_in_feedback_body" style="@style/CheckInBodyThick"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_1" android:background="@drawable/rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_thumbs_down" android:contentDescription="@string/cd_check_in_bad_feedback"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/bad" style="@style/CheckInCaption"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_2" android:background="@drawable/rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_thumbs_up" android:contentDescription="@string/cd_check_in_good_feedback"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/good" style="@style/CheckInCaption"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textAppearance="@style/DwLoginButtonTextInverse" android:layout_gravity="center" android:id="@+id/skip_btn" android:tag="binding_3" android:background="@drawable/button_border" android:layout_width="0dp" android:layout_height="56dp" android:layout_marginBottom="20dp" android:text="@string/check_in_skip" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" android:stateListAnimator="@null" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

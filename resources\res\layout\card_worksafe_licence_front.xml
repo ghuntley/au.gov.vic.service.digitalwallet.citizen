@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/card_worksafe_licence_front_0" android:background="@drawable/holding_bg_worksafe" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintHeight_percent="0.27" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_default="0">
+        <TextView android:textSize="16sp" android:layout_gravity="center" android:tag="binding_1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="15dp" style="@style/WorksafeLicenceType"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="10dp" android:contentDescription="@string/cd_holding_logo_worksafe" android:layout_marginEnd="8dp" app:srcCompat="0x7e04001f"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/header">
+        <TextView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WorksafeLicenceName"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <TextView android:text="@string/holding_label_dob" android:layout_marginEnd="8dp" style="@style/WorksafeLicenceDataLabel"/>
+            <TextView android:tag="binding_3" style="@style/WorksafeLicenceDataValue"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0">
+        <TextView android:text="@string/holding_label_licence_no" style="@style/WorksafeLicenceDataLabel"/>
+        <TextView android:tag="binding_4" style="@style/WorksafeLicenceDataValue"/>
+        <Space android:layout_width="match_parent" android:layout_height="5dp"/>
+        <TextView android:text="@string/holding_label_licence_class" style="@style/WorksafeLicenceDataLabel"/>
+        <TextView android:tag="binding_5" style="@style/WorksafeLicenceDataValue"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/right_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/holding_label_valid_from" style="@style/WorksafeLicenceDataLabel"/>
+            <TextView android:text="@string/holding_label_expiry_date" style="@style/WorksafeLicenceDataLabel"/>
+            <TextView android:text="@string/holding_label_status" style="@style/WorksafeLicenceDataLabel"/>
+        </LinearLayout>
+        <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:tag="binding_6" style="@style/WorksafeLicenceDataValue"/>
+            <TextView android:tag="binding_7" style="@style/WorksafeLicenceDataValue"/>
+            <TextView android:tag="binding_8" style="@style/WorksafeLicenceDataValue"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/identification_photo" android:tag="binding_9" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="12dp" android:scaleType="centerCrop" android:contentDescription="@string/cd_identification_photo" app:layout_constraintBottom_toTopOf="@+id/right_details" app:layout_constraintDimensionRatio="H,1.15:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toBottomOf="@+id/header"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DwLoginCopy" parent="@style/DwMediumThinSlate">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dw_battleship_grey_RES_2114060291</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+    <style name="DwLoginHeading">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/dw_slate_RES_2114060294</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:fontFamily">@font/vic_bold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+    <style name="DwMediumThinSlate">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dw_slate_RES_2114060294</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:fontFamily">@font/vic_regular</item>
+    </style>
+    <style name="CheckInTitle" parent="@style/VicSemiBold.22">
+    </style>
+    <style name="DwLoginLinkText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dw_battleship_grey_RES_2131034233</item>
+        <item name="android:textColorLink">@color/dw_battleship_grey_RES_2131034233</item>
+        <item name="android:lineSpacingExtra">@dimen/terms_spacing</item>
+        <item name="android:fontFamily">@font/vic_semi_bold</item>
+    </style>
+</resources>

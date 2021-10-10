@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="316dp" android:width="509dp" android:viewportWidth="509" android:viewportHeight="316">
+    <path android:fillColor="@drawable/$holding_bg_kangaroo_harvester__0" android:pathData="M14.7,-1L493.92,-1A14.7,14.7 0,0 1,508.62 13.7L508.62,300.35A14.7,14.7 0,0 1,493.92 315.05L14.7,315.05A14.7,14.7 0,0 1,0 300.35L0,13.7A14.7,14.7 0,0 1,14.7 -1z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="#00573f" android:pathData="M493.92,-1C501.326,-1 507.452,4.476 508.471,11.601L508.62,11.6L508.62,87.2L-0,87.2L-0,11.6L0.149,11.601C1.168,4.476 7.294,-1 14.7,-1L493.92,-1Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

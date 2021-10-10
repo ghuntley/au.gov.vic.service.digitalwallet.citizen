@@ -1,0 +1,64 @@
+package com.digitalwallet.app.databinding;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.Bindable;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
+import au.gov.vic.service.digitalwallet.citizen.R;
+import com.digitalwallet.app.model.HoldingAssets;
+import com.digitalwallet.app.model.SecureHolding;
+
+public abstract class CardTemplate2FrontBinding extends ViewDataBinding {
+    public final ConstraintLayout holdingTitle;
+    @Bindable
+    protected HoldingAssets mAssets;
+    @Bindable
+    protected SecureHolding mHolding;
+
+    public abstract void setAssets(HoldingAssets holdingAssets);
+
+    public abstract void setHolding(SecureHolding secureHolding);
+
+    protected CardTemplate2FrontBinding(Object obj, View view, int i, ConstraintLayout constraintLayout) {
+        super(obj, view, i);
+        this.holdingTitle = constraintLayout;
+    }
+
+    public SecureHolding getHolding() {
+        return this.mHolding;
+    }
+
+    public HoldingAssets getAssets() {
+        return this.mAssets;
+    }
+
+    public static CardTemplate2FrontBinding inflate(LayoutInflater layoutInflater, ViewGroup viewGroup, boolean z) {
+        return inflate(layoutInflater, viewGroup, z, DataBindingUtil.getDefaultComponent());
+    }
+
+    @Deprecated
+    public static CardTemplate2FrontBinding inflate(LayoutInflater layoutInflater, ViewGroup viewGroup, boolean z, Object obj) {
+        return (CardTemplate2FrontBinding) ViewDataBinding.inflateInternal(layoutInflater, R.layout.card_template_2_front, viewGroup, z, obj);
+    }
+
+    public static CardTemplate2FrontBinding inflate(LayoutInflater layoutInflater) {
+        return inflate(layoutInflater, DataBindingUtil.getDefaultComponent());
+    }
+
+    @Deprecated
+    public static CardTemplate2FrontBinding inflate(LayoutInflater layoutInflater, Object obj) {
+        return (CardTemplate2FrontBinding) ViewDataBinding.inflateInternal(layoutInflater, R.layout.card_template_2_front, null, false, obj);
+    }
+
+    public static CardTemplate2FrontBinding bind(View view) {
+        return bind(view, DataBindingUtil.getDefaultComponent());
+    }
+
+    @Deprecated
+    public static CardTemplate2FrontBinding bind(View view, Object obj) {
+        return (CardTemplate2FrontBinding) bind(obj, view, R.layout.card_template_2_front);
+    }
+}

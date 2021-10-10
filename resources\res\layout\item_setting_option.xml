@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_setting_option_0" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="27dp" android:layout_marginBottom="27dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="16sp" android:textColor="@color/dw_slate_RES_2114060294" android:id="@+id/name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8sp" android:fontFamily="@font/vic_semi_bold"/>
+    </LinearLayout>
+    <CheckBox android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="1.25" android:scaleY="1.25" android:buttonTint="@color/dw_orange_RES_2114060292" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.google.android.material.switchmaterial.SwitchMaterial android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:thumbTint="@color/white" app:trackTint="@color/switch_track_tint"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

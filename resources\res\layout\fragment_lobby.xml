@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/fragment_lobby_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer">
+        <TextView android:textSize="36sp" android:textColor="@color/dw_slate_RES_2114060294" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="72dp" android:layout_marginBottom="16dp" android:text="@string/request_select" android:fontFamily="@font/vic_semi_bold" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/lobby_members" android:background="@drawable/white_to_gray_gradient" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/header"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/pill_slate_opaque" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="16dp" android:paddingEnd="16dp">
+            <TextView android:textColor="@color/white" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/request_refresh" android:fontFamily="@font/vic_semi_bold"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24dp" android:layout_centerInParent="true">
+        <ProgressBar android:tag="binding_4" android:layout_width="60dp" android:layout_height="60dp" style="?android:attr/progressBarStyle"/>
+        <TextView android:textSize="22sp" android:textColor="@color/dw_slate_RES_2114060294" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:drawablePadding="24dp" android:fontFamily="@font/vic_semi_bold" android:textAlignment="center"/>
+        <TextView android:textSize="18sp" android:textColor="@color/dw_battleship_grey_RES_2114060291" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="16sp" android:textColor="@color/dw_orange_RES_2114060292" android:tag="binding_7" android:background="@drawable/button_border" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24dp" android:textAllCaps="false" android:fontFamily="@font/vic_semi_bold" style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

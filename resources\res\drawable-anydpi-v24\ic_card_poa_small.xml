@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="52dp" android:width="61dp" android:viewportWidth="61" android:viewportHeight="52">
+    <path android:fillColor="#ff000000" android:pathData="M11,20h39c1.7,0 3,1.3 3,3v14c0,1.7 -1.3,3 -3,3H11c-1.7,0 -3,-1.3 -3,-3V23C8,21.3 9.3,20 11,20z"/>
+    <path android:fillColor="#ffffff" android:pathData="M11,20h39c1.7,0 3,1.3 3,3v14c0,1.7 -1.3,3 -3,3H11c-1.7,0 -3,-1.3 -3,-3V23C8,21.3 9.3,20 11,20z"/>
+    <path android:fillColor="@drawable/$ic_card_poa_small__0" android:pathData="M8,0h44c3.3,0 6,2.7 6,6v28c0,3.3 -2.7,6 -6,6H8c-3.3,0 -6,-2.7 -6,-6V6C2,2.7 4.7,0 8,0z"/>
+    <path android:fillColor="#ffffff" android:pathData="M37.5,12.3H22.5c-1,0 -1.9,0.9 -1.9,1.9v11.6c0,1.1 0.8,1.9 1.9,1.9h15.1c1,0 1.9,-0.9 1.9,-1.9V14.2C39.4,13.2 38.6,12.3 37.5,12.3zM27.2,16.1c1,0 1.9,0.9 1.9,1.9S28.2,20 27.2,20c-1,0 -1.9,-0.9 -1.9,-1.9S26.1,16.1 27.2,16.1zM24.3,23.9c0,-1.8 1.1,-2.9 2.8,-2.9c1.7,0 2.8,1.1 2.8,2.9H24.3zM35.7,23.9h-3.8v-1.9h3.8V23.9zM35.7,21h-3.8V19h3.8V21z"/>
+</vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_check_in_success_conversion_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/banner_check_in_success"/>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="32dp" android:paddingRight="24dp" android:paddingBottom="100dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="24dp">
+                <TextView android:textSize="24sp" android:textColor="@color/dw_slate_RES_2131034238" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/check_in_success_conversion_header" android:fontFamily="@font/vic_semi_bold"/>
+                <TextView android:textSize="16sp" android:textColor="@color/dw_slate_RES_2131034238" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/check_in_success_conversion_subheader" android:fontFamily="@font/vic_regular"/>
+                <ImageView android:layout_width="match_parent" android:layout_height="580dp" android:layout_marginTop="32dp" android:src="0x7f0700a1" android:contentDescription="@string/app_name_RES_2131689500"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button android:textAppearance="@style/DwLoginButtonText" android:tag="binding_2" android:background="@color/dw_orange_RES_2131034234" android:layout_width="match_parent" android:layout_height="56dp" android:layout_margin="24dp" android:text="@string/check_in_download_app" android:elevation="20dp" app:layout_constraintBottom_toBottomOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

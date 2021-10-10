@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/frameLayout" android:tag="layout/card_affordances_authority_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textColor="@color/dark_RES_2114060289" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/days_to_expire" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="22dp" android:text="@string/request_make_request" android:lineSpacingExtra="14sp" android:fontFamily="@font/vic_semi_bold"/>
+</FrameLayout>

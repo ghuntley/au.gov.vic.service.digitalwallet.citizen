@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_check_in_primary_input_0" android:background="@color/white" android:focusable="true" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/title_bar_RES_2131296685" layout="@layout/layout_check_in_title_bar"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textColor="@color/dw_battleship_grey_RES_2131034233" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/check_in_location_header" android:fontFamily="@font/vic_semi_bold" android:layout_marginStart="24dp"/>
+            <TextView android:textSize="26sp" android:textColor="@color/dw_slate_RES_2131034238" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="4dp" android:layout_marginRight="24dp" android:layout_marginBottom="48dp" android:maxLines="3" android:fontFamily="@font/vic_bold" android:layout_marginHorizontal="24dp" app:autoSizeMaxTextSize="36sp" app:autoSizeMinTextSize="18sp" app:autoSizeStepGranularity="1sp" app:autoSizeTextType="1"/>
+            <include android:id="@+id/input_layout" layout="@layout/layout_check_in_input"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="10dp" android:layout_marginRight="24dp" android:layout_marginBottom="16dp" android:layout_marginHorizontal="24dp">
+                <TextView android:textSize="14sp" android:textColor="@color/dw_slate_RES_2131034238" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/check_in_save_my_details" android:layout_weight="1" android:fontFamily="@font/vic_semi_bold" android:layout_marginEnd="4dp"/>
+                <com.google.android.material.switchmaterial.SwitchMaterial android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:thumbTint="@color/white" app:trackTint="@color/switch_track_tint"/>
+            </LinearLayout>
+            <View android:background="@color/light" android:layout_width="match_parent" android:layout_height="0.8dp"/>
+            <LinearLayout android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24dp" android:paddingVertical="20dp">
+                <Button android:textAppearance="@style/DwLoginButtonTextInverse" android:tag="binding_4" android:background="@drawable/button_border" android:layout_width="0dp" android:layout_height="56dp" android:text="@string/check_in_add_another" android:layout_weight="1" style="?android:attr/buttonBarButtonStyle"/>
+                <Button android:textAppearance="@style/DwLoginButtonText" android:tag="binding_5" android:layout_width="0dp" android:layout_height="56dp" android:text="@string/check_in_title" android:layout_weight="1" android:layout_marginStart="15dp" style="?android:attr/buttonBarButtonStyle"/>
+            </LinearLayout>
+            <include android:id="@+id/check_in_privacy_layout" layout="@layout/layout_check_in_privacy"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

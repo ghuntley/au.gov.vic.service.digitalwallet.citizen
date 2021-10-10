@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/card_ambulance_membership_back_0" android:background="@drawable/holding_bg_av_back" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="65dp" android:layout_marginStart="25dp" android:layout_marginEnd="20dp">
+        <TextView android:textSize="20sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/av_back_copy_1" android:fontFamily="@font/helvetica_neue"/>
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/av_back_copy_2" android:lineSpacingExtra="4dp" android:fontFamily="@font/helvetica_neue"/>
+    </LinearLayout>
+</FrameLayout>

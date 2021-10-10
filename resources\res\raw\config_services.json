@@ -1,0 +1,931 @@
+{
+  "services": [
+    {
+      "type": "carousel",
+      "items": [
+        {
+          "id": "login_carousel_fishing_license",
+          "image": "img_login_carousel_fishing_license",
+          "url": "https://www.service.vic.gov.au/find-services/outdoor-and-recreation/buy-a-victorian-recreational-fishing-licence?channel=mobileApplication",
+          "openExternally": false,
+          "order": 3
+        },
+        {
+          "id": "login_carousel_travel_voucher",
+          "image": "img_login_carousel_travel_voucher",
+          "url": "https://www.service.vic.gov.au/services/travel-voucher/home?channel=mobileApplication",
+          "openExternally": false,
+          "order": 1
+        },
+        {
+          "id": "login_carousel_solar_rebate",
+          "image": "img_login_carousel_solar_rebate",
+          "url": "https://www.service.vic.gov.au/services/solar-homes?channel=mobileApplication",
+          "openExternally": false,
+          "order": 2
+        }
+      ],
+      "order": 1
+    },
+    {
+      "type": "group",
+      "id": "group_transportation",
+      "title": "Transportation and Driving",
+      "categories": [
+        {
+          "id": "Registration",
+          "title": "Registration",
+          "description": "Manage your registration needs here. You can check or renew your registration, arrange a vehicle transfer or get an unregistered vehicle permit.",
+          "transactions": [
+            {
+              "id": "Renew_rego",
+              "title": "Renew vehicle registration",
+              "url": "https://www.service.vic.gov.au/find-services/transport-and-driving/registration/renew-registration?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            },
+            {
+              "id": "Check_rego",
+              "title": "Check vehicle registration",
+              "url": "https://www.service.vic.gov.au/find-services/transport-and-driving/registration/check-registration?channel=mobileApplication",
+              "openExternally": false,
+              "order": 2
+            },
+            {
+              "id": "Renew_vessel",
+              "title": "Renew vessel registration",
+              "url": "https://www.service.vic.gov.au/find-services/transport-and-driving/registration/renew-registration?channel=mobileApplication",
+              "openExternally": false,
+              "order": 3
+            },
+            {
+              "id": "Transfer_registration",
+              "title": "Transfer registration",
+              "url": "https://www.vicroads.vic.gov.au/registration/buy-sell-or-transfer-a-vehicle?channel=mobileApplication",
+              "openExternally": true,
+              "order": 4
+            },
+            {
+              "id": "Buy_an_unregistered_vehicle_permit",
+              "title": "Buy an unregistered vehicle permit",
+              "url": "https://www.vicroads.vic.gov.au/registration/limited-use-permits/unregistered-vehicle-permits?channel=mobileApplication",
+              "openExternally": true,
+              "order": 5
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "Licences",
+          "title": "Licences",
+          "description": "Find the information you need to renew or replace your licence and book a driver or learner permit test.",
+          "transactions": [
+            {
+              "id": "Renew_licence",
+              "title": "Renew driver licence",
+              "url": "https://www.vicroads.vic.gov.au/licences/renew-replace-or-update/renew-your-licence",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "Book_test",
+              "title": "Book a learner permit or driver test",
+              "url": "https://billing.vicroads.vic.gov.au/bookings",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "Maintain_your_L-plate_log",
+              "title": "Maintain your L-plate log",
+              "url": "https://mylearners.vic.gov.au/",
+              "openExternally": true,
+              "order": 3
+            },
+            {
+              "id": "Renew_learner_permit",
+              "title": "Renew learner permit",
+              "url": "https://www.vicroads.vic.gov.au/licences/renew-replace-or-update/renew-your-learner-permit",
+              "openExternally": true,
+              "order": 4
+            },
+            {
+              "id": "Renew_marine_licence",
+              "title": "Renew marine licence",
+              "url": "https://www.vicroads.vic.gov.au/licences/licence-and-permit-types/marine-licence",
+              "openExternally": true,
+              "order": 5
+            },
+            {
+              "id": "Replace_licence",
+              "title": "Replace licence",
+              "url": "https://www.vicroads.vic.gov.au/licences/renew-replace-or-update/replace-your-licence-or-learner-permit",
+              "openExternally": true,
+              "order": 6
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "driver_history",
+          "title": "Driver history and demerit points",
+          "description": "Check your demerit points, request a driver history report or order a licence verification letter.",
+          "transactions": [
+            {
+              "id": "Apply_for_your_driver_history_report",
+              "title": "Apply for your driver history report",
+              "url": "https://service.vic.gov.au/find-services/transport-and-driving/licences/check-your-driver-history-and-demerit-points?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "myki",
+          "title": "Myki card",
+          "description": "Buy or top up a myki quickly and easily.",
+          "transactions": [
+            {
+              "id": "buy_myki",
+              "title": "Buy a myki card",
+              "url": "https://www.service.vic.gov.au/find-services/transport-and-driving/myki-card/buy-a-myki?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            },
+            {
+              "id": "topupmyki",
+              "title": "Top-up a myki",
+              "url": "https://www.service.vic.gov.au/find-services/transport-and-driving/myki-card/top-up-myki?channel=mobileApplication",
+              "openExternally": false,
+              "order": 2
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "traffic_accident_reports",
+          "title": "Traffic accident reports",
+          "description": "Find out how to get a copy of an accident record from Victoria Police.",
+          "transactions": [
+            {
+              "id": "Apply_for_a_traffic_accident_report",
+              "title": "Apply for a traffic accident report",
+              "url": "https://www.police.vic.gov.au/traffic-accident-reports?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "fines",
+          "title": "Fines",
+          "description": "Pay your speeding, red-light or toll fines here.",
+          "transactions": [
+            {
+              "id": "Pay_a_speeding_fine",
+              "title": "Pay a speeding fine",
+              "url": "https://online.fines.vic.gov.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "Pay_a_red_light_fine",
+              "title": "Pay a red light fine",
+              "url": "https://online.fines.vic.gov.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "Pay_a_toll_fine",
+              "title": "Pay a toll fine",
+              "url": "https://online.fines.vic.gov.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 3
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "tollways",
+          "title": "Tollways",
+          "description": "Order a Linkt or EastLink statement or top-up your account.",
+          "transactions": [
+            {
+              "id": "linkt",
+              "title": "Linkt",
+              "url": "https://www.linkt.com.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "eastlink",
+              "title": "Eastlink",
+              "url": "https://www.eastlink.com.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            }
+          ],
+          "order": 7
+        }
+      ],
+      "order": 2
+    },
+    {
+      "type": "group",
+      "id": "group_personal",
+      "title": "Personal",
+      "categories": [
+        {
+          "id": "av",
+          "title": "Ambulance Victoria membership",
+          "description": "Buy, renew or update your ambulance membership.",
+          "transactions": [
+            {
+              "id": "Become_member",
+              "title": "Become a member",
+              "url": "https://www.service.vic.gov.au/find-services/personal/ambulance-membership/become-a-member?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            },
+            {
+              "id": "Update_details",
+              "title": "Update details or add family",
+              "url": "https://www.service.vic.gov.au/find-services/personal/ambulance-membership/update-membership?channel=mobileApplication",
+              "openExternally": false,
+              "order": 2
+            },
+            {
+              "id": "Renew_membership",
+              "title": "Renew a membership",
+              "url": "https://www.service.vic.gov.au/find-services/personal/ambulance-membership/renew-membership?channel=mobileApplication",
+              "openExternally": false,
+              "order": 3
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "Life_event_certificates",
+          "title": "Life event certificates",
+          "description": "Access documentation for major life events including birth, marriage and death.",
+          "transactions": [
+            {
+              "id": "Get_a_birth_certificate",
+              "title": "Get a birth certificate",
+              "url": "https://www.bdm.vic.gov.au/births/get-a-birth-certificate?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "Get_a_marriage_certificate",
+              "title": "Get a marriage certificate",
+              "url": "https://www.bdm.vic.gov.au/marriages-and-relationships/get-a-marriage-certificate?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "Get_a_death_certificate",
+              "title": "Get a death certificate",
+              "url": "https://www.bdm.vic.gov.au/deaths/get-a-death-certificate?channel=mobileApplication",
+              "openExternally": true,
+              "order": 3
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "family_history",
+          "title": "Family history",
+          "description": "Research your family history from database records dating back to 1836.",
+          "transactions": [
+            {
+              "id": "Search_family_history",
+              "title": "Search family history",
+              "url": "https://www.bdm.vic.gov.au/research-and-family-history/search-your-family-history?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "proof",
+          "title": "Proof of age card",
+          "description": "Find out how to apply for a proof of age card.",
+          "transactions": [
+            {
+              "id": "apply_proof",
+              "title": "Apply for a proof of age card",
+              "url": "https://www.service.vic.gov.au/find-services/personal/apply-for-a-proof-of-age-card?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "Unclaimed_money",
+          "title": "Unclaimed money",
+          "description": "Search for any unclaimed money you might be entitled to, or lodge unclaimed money directly with the State Revenue Office.",
+          "transactions": [
+            {
+              "id": "Search_for_your_unclaimed_money",
+              "title": "Search for your unclaimed money",
+              "url": "https://www.sro.vic.gov.au/unclaimedmoneysearch?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "Apply_for_your_unclaimed_money",
+              "title": "Apply for your unclaimed money",
+              "url": "https://www.sro.vic.gov.au/unclaimed-money/apply-your-unclaimed-money?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "Lodge_unclaimed_money",
+              "title": "Lodge unclaimed money",
+              "url": "https://www.sro.vic.gov.au/unclaimed-money/apply-your-unclaimed-money?channel=mobileApplication",
+              "openExternally": true,
+              "order": 3
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "seniors_card",
+          "title": "Seniors card",
+          "description": "Apply for a Victorian seniors card.",
+          "transactions": [
+            {
+              "id": "Apply_for_a_seniors_card",
+              "title": "Apply for a seniors card",
+              "url": "https://www.seniorsonline.vic.gov.au/seniors-card/manage-your-card/apply-for-a-card",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "enrol_vote",
+          "title": "Enrol to vote",
+          "description": "Enrol online to vote in Victoria.",
+          "transactions": [
+            {
+              "id": "enrol_vote",
+              "title": "Enrol to vote",
+              "url": "https://www.aec.gov.au/enrol/",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "make_a_will",
+          "title": "Make a Will",
+          "description": "Write your will so your family and friends know how to manage your estate.",
+          "transactions": [
+            {
+              "id": "make_a_will",
+              "title": "Make a Will",
+              "url": "https://service.vic.gov.au/find-services/personal/make-a-will",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 8
+        }
+      ],
+      "order": 8
+    },
+    {
+      "type": "group",
+      "id": "group_work",
+      "title": "Work and volunteering",
+      "categories": [
+        {
+          "id": "wwcc",
+          "title": "Working with Children Check",
+          "description": "Apply for and manage your check.",
+          "transactions": [
+            {
+              "id": "apply_wwcc",
+              "title": "Apply for a new Working with Children Check",
+              "url": "https://www.service.vic.gov.au/services/working-with-children?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            },
+            {
+              "id": "renew_wwcc",
+              "title": "Renew your Working with Children Check",
+              "url": "https://www.service.vic.gov.au/find-services/work-and-volunteering/working-with-children-check/renew-your-working-with-children-check?channel=mobileApplication",
+              "openExternally": false,
+              "order": 2
+            },
+            {
+              "id": "update_wwcc",
+              "title": "Update your details",
+              "url": "https://service.vic.gov.au/find-services/work-and-volunteering/working-with-children-check/update-your-working-with-children-check-details?channel=mobileApplication",
+              "openExternally": false,
+              "order": 3
+            },
+            {
+              "id": "change_from_volunteer_to_employee",
+              "title": "Change from volunteer to employee",
+              "url": "https://service.vic.gov.au/find-services/work-and-volunteering/working-with-children-check/change-from-volunteer-to-employee?channel=mobileApplication",
+              "openExternally": false,
+              "order": 4
+            },
+            {
+              "id": "check_your_status",
+              "title": "Check your status",
+              "url": "https://online.justice.vic.gov.au/wwccu/checkstatus.doj?channel=mobileApplication",
+              "openExternally": true,
+              "order": 5
+            },
+            {
+              "id": "replace_your_card",
+              "title": "Replace your card",
+              "url": "https://www.workingwithchildren.vic.gov.au/individuals/current-cardholders/replace-my-card?channel=mobileApplication",
+              "openExternally": true,
+              "order": 6
+            },
+            {
+              "id": "teacher_notification_to_wwccv",
+              "title": "Teacher notification to WWCCV",
+              "url": "https://www.service.vic.gov.au/services/teachers-notifications?channel=mobileApplication",
+              "openExternally": false,
+              "order": 7
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "ndis",
+          "title": "NDIS Worker Screening Check",
+          "description": "Apply for screening to work for NDIS-registered organisations or self-managed participants.",
+          "transactions": [
+            {
+              "id": "apply_for_an_ndis_worker_screening_check",
+              "title": "Apply for an NDIS Worker Screening Check",
+              "url": "https://www.service.vic.gov.au/services/national-disability-insurance-scheme",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "worksafe",
+          "title": "Worksafe",
+          "description": "Report incidents, claims and rateable remuneration and apply for licences and insurance.",
+          "transactions": [
+            {
+              "id": "report_incident",
+              "title": "Report an incident",
+              "url": "https://www.worksafe.vic.gov.au/incident-just-happened",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "make_claim",
+              "title": "Make a claim",
+              "url": "https://www.worksafe.vic.gov.au/make-claim",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "apply_licence",
+              "title": "Apply for a licence",
+              "url": "https://www.worksafe.vic.gov.au/licences",
+              "openExternally": true,
+              "order": 3
+            },
+            {
+              "id": "register_insurance",
+              "title": "Register for insurance",
+              "url": "https://www.worksafe.vic.gov.au/pay-or-renew-your-workcover-insurance-premium",
+              "openExternally": true,
+              "order": 4
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "responsible_service_of_alcohol",
+          "title": "Responsible service of alcohol",
+          "description": "Find out what training you need to undertake to serve alcohol.",
+          "transactions": [
+            {
+              "id": "complete_responsible_service_of_alcohol_training",
+              "title": "Complete responsible service of alcohol training",
+              "url": "https://www.vcglr.vic.gov.au/resources/education-and-training/responsible-service-alcohol",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "Gaming_industry_employee_licence",
+          "title": "Gaming industry employee licence",
+          "description": "Apply for a licence to work in the gaming industry.",
+          "transactions": [
+            {
+              "id": "apply_for_your_gaming_industry_employee_licence",
+              "title": "Apply for your gaming industry employee licence",
+              "url": "https://www.vcglr.vic.gov.au/gambling/gaming-industry-employee/apply-new-licence/licence-application-form",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "private_security_licence",
+          "title": "Private security licence",
+          "description": "Apply for or renew your private security licence.",
+          "transactions": [
+            {
+              "id": "apply_for_a_private_security_licence",
+              "title": "Apply for a private security licence",
+              "url": "https://eservices.police.vic.gov.au/eServices/login.htm",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "renew_private_security_licence",
+              "title": "Renew private security licence",
+              "url": "https://www.police.vic.gov.au/renew-existing-licence",
+              "openExternally": true,
+              "order": 2
+            }
+          ],
+          "order": 6
+        }
+      ],
+      "order": 4
+    },
+    {
+      "type": "group",
+      "id": "group_outdoor",
+      "title": "Outdoor and recreation",
+      "categories": [
+        {
+          "id": "Fishing",
+          "title": "Fishing licence",
+          "description": "Get a Victorian fishing licence for 3 days or for up to 3 years.",
+          "transactions": [
+            {
+              "id": "buy_licence",
+              "title": "Buy a fishing licence",
+              "url": "https://www.service.vic.gov.au/find-services/outdoor-and-recreation/buy-a-victorian-recreational-fishing-licence?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "Mining",
+          "title": "Mining rights",
+          "description": "You need a miner's right for recreational prospecting in Victoria.",
+          "transactions": [
+            {
+              "id": "get_rights",
+              "title": "Buy a Victorian miner's right",
+              "url": "https://www.service.vic.gov.au/services/earth-resources?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "Kangaroo",
+          "title": "Kangaroo management",
+          "description": "Find harvesters to control kangaroo populations on your property.",
+          "transactions": [
+            {
+              "id": "find_harvester",
+              "title": "Find a kangaroo harvester",
+              "url": "https://www.service.vic.gov.au/find-services/outdoor-and-recreation/find-a-kangaroo-harvester?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "Beekeeping",
+          "title": "Beekeeping",
+          "description": "If you keep one or more beehives in Victoria, then you need to register as a beekeeper.",
+          "transactions": [
+            {
+              "id": "register_as_a_beekeeper",
+              "title": "Register as a beekeeper",
+              "url": "http://agriculture.vic.gov.au/agriculture/livestock/honey-bees/beekeeper-registration-and-hive-disposal?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "Parks_and_reserves_event_application",
+          "title": "Parks and reserves event application",
+          "description": "Apply for an event permit to host an event in one of Victoria's parks or reserves.",
+          "transactions": [
+            {
+              "id": "submit_a_parks_and_reserves_event_application",
+              "title": "Submit a parks and reserves event application",
+              "url": "https://www.parks.vic.gov.au/get-into-nature/events-and-filming-permits/permit-information/parks-and-reserves-application-guidelines?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "Wildlife_licence",
+          "title": "Wildlife licence",
+          "description": "You need a licence to keep wildlife including some species of birds, reptiles, amphibians and mammals.",
+          "transactions": [
+            {
+              "id": "apply_for_a_wildlife_licence",
+              "title": "Apply for a wildlife licence",
+              "url": "https://www.wildlife.vic.gov.au/keeping-and-trading-wildlife/private-wildlife-licences?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "Bays_and_waterways_event_application",
+          "title": "Bays and waterways event application",
+          "description": "Apply for an event permit to host an event on one of Victoria's waterways.",
+          "transactions": [
+            {
+              "id": "apply_for_a_bays_and_waterways_event",
+              "title": "Apply for a bays and waterways event",
+              "url": "https://www.parks.vic.gov.au/get-into-nature/events-and-filming-permits/permit-information/bays-and-waterways-application-guidelines?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "Partysafe",
+          "title": "Partysafe program",
+          "description": "Register your party online with Victoria Police’s Partysafe program at least one week before the event.",
+          "transactions": [
+            {
+              "id": "register_party",
+              "title": "Register a party with the Partysafe program",
+              "url": "https://www.service.vic.gov.au/find-services/outdoor-and-recreation/register-a-party-with-the-partysafe-program?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 8
+        }
+      ],
+      "order": 5
+    },
+    {
+      "type": "group",
+      "id": "group_housing",
+      "title": "Housing and property",
+      "categories": [
+        {
+          "id": "buying_and_renting",
+          "title": "Buying and renting",
+          "description": "Manage your property buying and renting needs.",
+          "transactions": [
+            {
+              "id": "apply_for_the_first_home_owner_grant",
+              "title": "Apply for the first home owner grant",
+              "url": "https://www.sro.vic.gov.au/fhogapply?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "compete_a_digital_duties_form",
+              "title": "Complete a digital duties form",
+              "url": "https://www.sro.vic.gov.au/completeform?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            },
+            {
+              "id": "do_a_land_title_search",
+              "title": "Do a land title search",
+              "url": "https://www.landata.vic.gov.au/?channel=mobileApplication",
+              "openExternally": true,
+              "order": 3
+            },
+            {
+              "id": "pay_a_rental_bond",
+              "title": "Pay a rental bond",
+              "url": "https://www.consumer.vic.gov.au/housing/renting/beginning-a-lease-or-residency/lodging-the-bond#how-to-lodge-a-bond?channel=mobileApplication",
+              "openExternally": true,
+              "order": 4
+            },
+            {
+              "id": "rental_agreement_and_application",
+              "title": "Rental agreement and application",
+              "url": "https://www.consumer.vic.gov.au/housing/renting/types-of-rental-agreements/lease-agreements-or-contracts?channel=mobileApplication",
+              "openExternally": true,
+              "order": 5
+            },
+            {
+              "id": "buying_a_property",
+              "title": "Buying a property",
+              "url": "https://www.consumer.vic.gov.au/housing/buying-and-selling-property/buying-property?channel=mobileApplication",
+              "openExternally": true,
+              "order": 6
+            },
+            {
+              "id": "find_out_about_land_tax",
+              "title": "Find out about land tax",
+              "url": "https://www.sro.vic.gov.au/land-tax?channel=mobileApplication",
+              "openExternally": true,
+              "order": 7
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "solar",
+          "title": "Solar Homes rebate",
+          "description": "Apply for a Solar Homes rebate towards solar panels (PV) or batteries",
+          "transactions": [
+            {
+              "id": "apply_solar",
+              "title": "Apply for a Solar Homes rebate",
+              "url": "https://www.service.vic.gov.au/services/solar-homes?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "Absence",
+          "title": "Register your absence from residence",
+          "description": "If you're going away, then register your absence from residence with Victoria Police.",
+          "transactions": [
+            {
+              "id": "register_absence",
+              "title": "Register your absence from residence",
+              "url": "https://www.service.vic.gov.au/find-services/housing-and-property/register-your-absence-from-residence?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 3
+        }
+      ],
+      "order": 6
+    },
+    {
+      "type": "group",
+      "id": "group_crime",
+      "title": "Crime and the law",
+      "categories": [
+        {
+          "id": "Absence",
+          "title": "Register your absence from residence",
+          "description": "If you're going away, then register your absence from residence with Victoria Police.",
+          "transactions": [
+            {
+              "id": "register_absence",
+              "title": "Register your absence from residence",
+              "url": "https://www.service.vic.gov.au/find-services/housing-and-property/register-your-absence-from-residence?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "police_check",
+          "title": "Apply for a national police check",
+          "description": "Apply for a Victoria Police issued national police check for work and occupation-related licensing and registration.",
+          "transactions": [
+            {
+              "id": "police_check",
+              "title": "National police check",
+              "url": "https://www.police.vic.gov.au/national-police-records-checks/",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "Partysafe",
+          "title": "Partysafe program",
+          "description": "Register a party with the Partysafe program.",
+          "transactions": [
+            {
+              "id": "register_party",
+              "title": "Register a party with the Partysafe program",
+              "url": "https://www.service.vic.gov.au/find-services/outdoor-and-recreation/register-a-party-with-the-partysafe-program?channel=mobileApplication",
+              "openExternally": false,
+              "order": 1
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "firearm_licence",
+          "title": "Firearm licence",
+          "description": "Apply for or renew a firearm licence.",
+          "transactions": [
+            {
+              "id": "apply_for_a_firearm_licence",
+              "title": "Apply for a firearm licence",
+              "url": "https://www.police.vic.gov.au/new-firearm-applicants?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            },
+            {
+              "id": "renew_a_firearm_licence",
+              "title": "Renew a firearm licence",
+              "url": "https://www.police.vic.gov.au/current-licence-holders?channel=mobileApplication",
+              "openExternally": true,
+              "order": 2
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "order_a_crime_report_for_insurance",
+          "title": "Order a crime report for insurance",
+          "description": "Order a crime report detailing damage or loss of property to support your insurance claim.",
+          "transactions": [
+            {
+              "id": "order_a_crime_report_for_insurance",
+              "title": "Order a crime report for insurance",
+              "url": "https://www.police.vic.gov.au/crime-reports?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "theft",
+          "title": "Theft",
+          "description": "Report a theft to Victoria Police.",
+          "transactions": [
+            {
+              "id": "report_a_theft_to_victoria_police",
+              "title": "Report a theft to Victoria Police",
+              "url": "https://onlinereporting.police.vic.gov.au/s/olr-theft-pre-qual?language=en_US&utm_term=button&utm_medium=theft&utm_source=service_victoria?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "lost_property",
+          "title": "Lost property",
+          "description": "Report lost property to Victoria Police.",
+          "transactions": [
+            {
+              "id": "report_lost_property_to_victoria_police",
+              "title": "Report lost property to Victoria Police",
+              "url": "https://onlinereporting.police.vic.gov.au/s/olr-lost-property?language=en_US&utm_source=service_victoria&utm_medium=lost_property&utm_term=button?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "property_damage",
+          "title": "Property damage",
+          "description": "Report property damage to Victoria Police.",
+          "transactions": [
+            {
+              "id": "report_property_damage_to_victoria_police",
+              "title": "Report property damage to Victoria Police",
+              "url": "https://onlinereporting.police.vic.gov.au/s/olr-property-damage?language=en_US&utm_source=service_victoria&utm_medium=property_damage&utm_term=button?channel=mobileApplication",
+              "openExternally": true,
+              "order": 1
+            }
+          ],
+          "order": 8
+        }
+      ],
+      "order": 7
+    }
+  ]
+}

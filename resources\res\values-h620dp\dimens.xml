@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_img_background_height">380dp</dimen>
+    <dimen name="login_margin_end">42dp</dimen>
+    <dimen name="terms_margin_start">16dp</dimen>
+    <dimen name="check_in_camera_hitbox_height">300dp</dimen>
+    <dimen name="check_in_camera_hitbox_width">300dp</dimen>
+    <dimen name="check_in_tick_height">97dp</dimen>
+    <dimen name="check_in_tick_width">96dp</dimen>
+    <dimen name="login_link_underline_offset">7px</dimen>
+    <dimen name="terms_spacing">30sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/alert_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/action_layout" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:layout_gravity="center" android:id="@+id/image_RES_2114322545" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_icon_success"/>
+        <TextView android:textSize="22sp" android:textColor="@color/dw_slate_RES_2114060294" android:layout_gravity="center" android:id="@+id/title_RES_2114322634" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_card_complete" android:textAlignment="center" style="@style/SVCallout"/>
+        <TextView android:layout_gravity="center" android:id="@+id/message_RES_2114322565" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:textAlignment="center" style="@style/SVBody"/>
+        <TextView android:textColor="@color/darker" android:layout_gravity="center" android:id="@+id/detailed_message" android:paddingTop="35dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:textAlignment="center" style="@style/SVInformational"/>
+    </LinearLayout>
+    <GridLayout android:orientation="vertical" android:id="@+id/action_layout" android:background="@color/white" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0">
+        <Button android:id="@+id/action2" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" style="@style/OrangeButton"/>
+        <Button android:id="@+id/action1" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" style="@style/OrangeButton"/>
+        <Button android:id="@+id/dismiss" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/WhiteButton"/>
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

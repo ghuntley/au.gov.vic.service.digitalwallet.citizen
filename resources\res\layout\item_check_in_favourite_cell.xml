@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:tag="layout/item_check_in_favourite_cell_0" android:background="@drawable/ic_check_in_favourite_cell_background" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="162dp" android:layout_height="70dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginHorizontal="5dp" android:paddingHorizontal="16dp">
+    <TextView android:textSize="16sp" android:textColor="#3c4a60" android:ellipsize="end" android:gravity="center_vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:fontFamily="@font/vic_semi_bold"/>
+</LinearLayout>

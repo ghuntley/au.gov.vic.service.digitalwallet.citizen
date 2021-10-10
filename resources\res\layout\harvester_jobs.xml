@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/harvester_jobs_0" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridLayout android:padding="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="1" android:useDefaultMargins="true">
+        <ImageView android:tag="binding_1" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/cd_back" android:paddingStart="0dp" android:paddingEnd="30dp" app:srcCompat="@drawable/ic_icon_nav_back_dark"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/harvest_my_jobs_title" style="@style/ExpandedAppBar"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/harvest_my_jobs_description" style="@style/SVBody"/>
+    </GridLayout>
+    <View style="@style/HorizontalLine"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_rowWeight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/job_table" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_2" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="10dp" android:tint="@color/dw_slate_RES_2114060294" android:contentDescription="@string/cd_notice_icon" app:srcCompat="@drawable/ic_icon_info_red"/>
+            <TextView android:textColor="@color/dw_slate_RES_2114060294" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/harvest_no_jobs_title" android:textAlignment="center" style="@style/SVBody"/>
+            <TextView android:textColor="@color/dw_slate_RES_2114060294" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/harvest_no_jobs_message" android:textAlignment="center" style="@style/SVBody"/>
+        </LinearLayout>
+    </FrameLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@+id/add_card_btn" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24dp" android:src="@drawable/ic_icon_add" android:text="Create job" style="@style/OrangeButton"/>
+</GridLayout>
